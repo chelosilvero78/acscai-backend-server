@@ -109,6 +109,7 @@ function subirPorTipo(tipo, id, nombreArchivo, res) {
 
 
             var pathViejo = './uploads/usuarios/' + usuario.img;
+            console.error("pathViejo-->", usuario);
 
             // Si existe, elimina la imagen anterior
             if (fs.existsSync(pathViejo)) {
